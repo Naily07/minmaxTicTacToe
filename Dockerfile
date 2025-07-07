@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:2.13.0
+FROM tensorflow/tensorflow:2.18.0
 
 # Installer FastAPI et Uvicorn
 RUN pip install fastapi uvicorn[standard] numpy
